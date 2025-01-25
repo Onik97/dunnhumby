@@ -45,8 +45,7 @@ docker run -p 5101:5101 dunnhumby-api
       "name": "string",
       "productCode": "string",
       "price": "decimal",
-      "stockQuantity": "int",
-      "dateAdded": "DateTime"
+      "stockQuantity": "int"
   }
   ```
 
