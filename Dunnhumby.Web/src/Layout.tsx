@@ -6,7 +6,9 @@ export default function Layout({ routing }: Routing) {
   return (
     <>
       <Header routing={routing} />
-      <Outlet />
+      <Container>
+        <Outlet />
+      </Container>
     </>
   );
 }
