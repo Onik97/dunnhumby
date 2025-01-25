@@ -22,7 +22,7 @@ jobs:
           bun-version: "latest"
 
       - name: Install dependencies
-        run: bun ci
+        run: bun run install
 
       - name: Run TypeScript Type Check
         run: bun run tsc
