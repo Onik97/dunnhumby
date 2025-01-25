@@ -1,0 +1,8 @@
+services:
+  dunnhumby:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5101:5101"
+    restart: unless-stopped
