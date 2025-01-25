@@ -5,6 +5,10 @@ import HomePage from "@/pages/HomePage";
 import CreateProductPage from "./pages/Product/CreateProductPage";
 import StockPerCategoryPage from "./pages/Product/StockPerCategoryPage";
 
+export interface Routing {
+  routing: RoutingProps[];
+}
+
 export interface RoutingProps {
   label?: string;
   navRouting?: boolean;

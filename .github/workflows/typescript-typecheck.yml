@@ -22,7 +22,9 @@ jobs:
           bun-version: "latest"
 
       - name: Install dependencies
+        working-directory: ./Dunnhumby.Web
         run: bun install
 
       - name: Run TypeScript Type Check
+        working-directory: ./Dunnhumby.Web
         run: bun run tsc

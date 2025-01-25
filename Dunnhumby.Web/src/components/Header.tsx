@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
-import { Routing } from "@/Main";
 import Container from "./Container";
+import { Routing } from "@/Routing";
 
 export default function Header({ routing }: Routing) {
   return (
